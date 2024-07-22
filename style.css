@@ -1,0 +1,60 @@
+body {
+    background: black;
+    color: white;
+}
+
+/* Border Style */
+.header{
+    width: 100%;
+}
+
+.child{
+    position: relative;
+    text-align: center;
+}
+
+.child h1 {
+    display: inline-block;
+}
+
+/* Dashboard Style*/
+iframe{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: none;
+}
+
+/* Infographic Style*/
+.graphic{
+    padding-top: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+}
+
+.graphic img{
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 5px;
+    width: 75%;
+    height: 75%;
+    margin: 5% 10% 10% 10%;
+}
+
+.graphic img:hover {
+    box-shadow: 0 0 20px 10px rgba(255, 255, 255, 1);
+}
+
+.graphic p{
+    font-size: 20px;
+}
+
+/* Record Style*/
+.record img{
+    display: block;
+    padding-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
